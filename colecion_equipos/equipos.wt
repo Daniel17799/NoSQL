@@ -1,0 +1,10 @@
+db.equipos.insertMany([
+  {nombre: "Tigres del Norte", barrio: "Junin", entrenador: "Juan Pérez", jugadores: 7 },
+  {nombre: "Aguilas doradas", barrio: "Miraflores", entrenador: "Daniel Barreo", jugadores: 6 },
+  {nombre: "Jaguares", barrio: "Niño Jesús", entrenador: "Fred Torres", jugadores: 6},
+  {nombre: "Chimichangas", barrio: "La Plazuela", entrenador: "Cristian Zapata", jugadores: 7 },
+  {nombre: "Azulas", barrio: "Galan", entrenador: "Luis Trejos", jugadores: 5 },
+  {nombre: "Pokemons", barrio: "Altamira", entrenador: "El Beto", jugadores: 7 },
+  {nombre: "Power Rangers", barrio: "La Gracia", entrenador: "Julian Restrepo", jugadores: 6 },
+  {nombre: "Los Chita", barrio: "Ciudad Alta", entrenador: "Camilo Agudelo", jugadores: 7 },
+]);
