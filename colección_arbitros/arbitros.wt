@@ -1,0 +1,4 @@
+db.arbitros.insertMany([
+  {nombre: "Juan Mendoza", edad: 36},
+  {nombre: "Alberto Mesa", edad: 38}
+]);

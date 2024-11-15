@@ -8,3 +8,4 @@ db.entrenadores.insertMany([
 { nombre: "Esteban Suarez", equipoId: ObjectId("67378178ddf59492dc771007"), edad: 30},
 { nombre: "Felipe Bueno", equipoId: ObjectId("67378178ddf59492dc771008"), edad: 24}
 ]);
+
