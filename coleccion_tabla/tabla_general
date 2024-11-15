@@ -1,0 +1,82 @@
+db.tabla.insertMany([
+  {
+    equipo_id: ObjectId("67378178ddf59492dc771001"),
+    equipo: "Tigres del Norte",
+    goles_a_favor: 0,
+    goles_en_contra: 0,
+    tarjetas_amarillas: 0,
+    tarjetas_rojas: 0,
+    partidos_ganados: 0,
+    partidos_perdidos: 0
+  },
+  {
+    equipo_id: ObjectId("67378178ddf59492dc771002"),
+    equipo: "Águilas Doradas",
+    goles_a_favor: 0,
+    goles_en_contra: 0,
+    tarjetas_amarillas: 0,
+    tarjetas_rojas: 0,
+    partidos_ganados: 0,
+    partidos_perdidos: 0
+  },
+  {
+    equipo_id: ObjectId("67378178ddf59492dc771003"),
+    equipo: "Jaguares",
+    goles_a_favor: 0,
+    goles_en_contra: 0,
+    tarjetas_amarillas: 0,
+    tarjetas_rojas: 0,
+    partidos_ganados: 0,
+    partidos_perdidos: 0
+  },
+  {
+    equipo_id: ObjectId("67378178ddf59492dc771004"),
+    equipo: "Chimichangas",
+    goles_a_favor: 0,
+    goles_en_contra: 0,
+    tarjetas_amarillas: 0,
+    tarjetas_rojas: 0,
+    partidos_ganados: 0,
+    partidos_perdidos: 0
+  },
+  {
+    equipo_id: ObjectId("67378178ddf59492dc771005"),
+    equipo: "Azulas",
+    goles_a_favor: 0,
+    goles_en_contra: 0,
+    tarjetas_amarillas: 0,
+    tarjetas_rojas: 0,
+    partidos_ganados: 0,
+    partidos_perdidos: 0
+  },
+  {
+    equipo_id: ObjectId("67378178ddf59492dc771006"),
+    equipo: "Pokemons",
+    goles_a_favor: 0,
+    goles_en_contra: 0,
+    tarjetas_amarillas: 0,
+    tarjetas_rojas: 0,
+    partidos_ganados: 0,
+    partidos_perdidos: 0
+  },
+  {
+    equipo_id: ObjectId("67378178ddf59492dc771007"),
+    equipo: "Power Rangers",
+    goles_a_favor: 0,
+    goles_en_contra: 0,
+    tarjetas_amarillas: 0,
+    tarjetas_rojas: 0,
+    partidos_ganados: 0,
+    partidos_perdidos: 0
+  },
+  {
+    equipo_id: ObjectId("67378178ddf59492dc771008"),
+    equipo: "Los Chita",
+    goles_a_favor: 0,
+    goles_en_contra: 0,
+    tarjetas_amarillas: 0,
+    tarjetas_rojas: 0,
+    partidos_ganados: 0,
+    partidos_perdidos: 0
+  }
+]);
