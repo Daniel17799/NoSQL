@@ -1,0 +1,77 @@
+db.jugadores.insertMany([
+  {nombre: "Pedro Gomez", edad: 21, equipo_id: ObjectId("67378178ddf59492dc771001") },
+  { nombre: "Luis Gomez", edad: 19, equipo_id: ObjectId("67378178ddf59492dc771001") },
+  { nombre: "Angel Ruiz", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771001") },
+  { nombre: "Sebastian Suarez", edad: 24, equipo_id: ObjectId("67378178ddf59492dc771001") },
+  { nombre: "Luis Restrepo", edad: 20, equipo_id: ObjectId("67378178ddf59492dc771001") },
+  { nombre: "Baena Salazar", edad: 19, equipo_id: ObjectId("67378178ddf59492dc771001") },
+ { nombre: "Alfredo Montoya", edad: 24, equipo_id: ObjectId("67378178ddf59492dc771001") },
+])
+
+
+db.jugadores.insertMany([
+  {nombre: "Luis Rangel", edad: 20, equipo_id: ObjectId("67378178ddf59492dc771002") },
+  { nombre: "Santiago Camargo", edad: 25, equipo_id: ObjectId("67378178ddf59492dc771002") },
+  { nombre: "Alberto Rodriguez", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771002") },
+  { nombre: "Manuel Restrepo", edad: 23, equipo_id: ObjectId("67378178ddf59492dc771002") },
+  { nombre: "Santiago Velez", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771002") },
+  { nombre: "Leonardo Marin", edad: 19, equipo_id: ObjectId("67378178ddf59492dc771002") },
+  { nombre: "Juan Marin", edad: 24, equipo_id: ObjectId("67378178ddf59492dc771002") },
+])
+
+db.jugadores.insertMany([
+  {nombre: "Dairo Agudelo", edad: 25, equipo_id: ObjectId("67378178ddf59492dc771003") },
+  { nombre: "Jhonnatan Maya", edad: 24, equipo_id: ObjectId("67378178ddf59492dc771003") },
+  { nombre: "Jhon Marulanda", edad: 21, equipo_id: ObjectId("67378178ddf59492dc771003") },
+  { nombre: "Juan Bermudez", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771003") },
+  { nombre: "Cristian Arce", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771003") },
+  { nombre: "Dago Pineda", edad: 19, equipo_id: ObjectId("67378178ddf59492dc771003") },
+  { nombre: "Esteban Cordoba", edad: 18, equipo_id: ObjectId("67378178ddf59492dc771003") },
+])
+
+db.jugadores.insertMany([
+  {nombre: "Danilo Alvarez", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771004") },
+  { nombre: "Pedro Carrillo", edad: 24, equipo_id: ObjectId("67378178ddf59492dc771004") },
+  { nombre: "Julian Fernandez", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771004") },
+  { nombre: "Cristian Fierro", edad: 21, equipo_id: ObjectId("67378178ddf59492dc771004") },
+  { nombre: "Cristian Arce", edad: 19, equipo_id: ObjectId("67378178ddf59492dc771004") },
+  { nombre: "Kevin Trejos", edad: 19, equipo_id: ObjectId("67378178ddf59492dc771004") },
+  { nombre: "Diego Betancur", edad: 21, equipo_id: ObjectId("67378178ddf59492dc771004") },
+])
+
+db.jugadores.insertMany([
+  {nombre: "Giovany Patiño", edad: 20, equipo_id: ObjectId("67378178ddf59492dc771005") },
+  { nombre: "Bayron Arias", edad: 21, equipo_id: ObjectId("67378178ddf59492dc771005") },
+  { nombre: "Carlos Velasco", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771005") },
+  { nombre: "Carlos Holguin", edad: 23, equipo_id: ObjectId("67378178ddf59492dc771005") },
+  { nombre: "Andres Vinasco", edad: 19, equipo_id: ObjectId("67378178ddf59492dc771005") },
+])
+
+db.jugadores.insertMany([
+  {nombre: "Jhonnatan Muñoz", edad: 20, equipo_id: ObjectId("67378178ddf59492dc771006") },
+  { nombre: "Carlos Guarin", edad: 21, equipo_id: ObjectId("67378178ddf59492dc771006") },
+  { nombre: "Andres Zuñiga", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771006") },
+  { nombre: "Jhoan Maya", edad: 23, equipo_id: ObjectId("67378178ddf59492dc771006") },
+  { nombre: "Daniel Camo", edad: 19, equipo_id: ObjectId("67378178ddf59492dc771006") },
+  { nombre: "Javi Rojas", edad: 18, equipo_id: ObjectId("67378178ddf59492dc771006") },
+])
+
+  db.jugadores.insertMany([
+  {nombre: "Santiago Ossa", edad: 20, equipo_id: ObjectId("67378178ddf59492dc771007") },
+  { nombre: "Dilan  Reyes", edad: 21, equipo_id: ObjectId("67378178ddf59492dc771007") },
+  { nombre: "Daniel Mejia", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771007") },
+  { nombre: "Esteban Vinasco", edad: 23, equipo_id: ObjectId("67378178ddf59492dc771007") },
+  { nombre: "Juan Pardo", edad: 19, equipo_id: ObjectId("67378178ddf59492dc771007") },
+  { nombre: "Victor Duque", edad: 18, equipo_id: ObjectId("67378178ddf59492dc771007") },
+])
+
+db.jugadores.insertMany([
+  {nombre: "Alejandro Restrepo", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771008") },
+  { nombre: "David Acosta", edad: 23, equipo_id: ObjectId("67378178ddf59492dc771008") },
+  { nombre: "Cristian Berño", edad: 22, equipo_id: ObjectId("67378178ddf59492dc771008") },
+  { nombre: "Maikol Maya", edad: 24, equipo_id: ObjectId("67378178ddf59492dc771008") },
+  { nombre: "Oscar Torres", edad: 20, equipo_id: ObjectId("67378178ddf59492dc771008") },
+  { nombre: "Brayan Ramirez", edad: 21, equipo_id: ObjectId("67378178ddf59492dc771008") },
+ { nombre: "Jose Ibarra", edad: 20, equipo_id: ObjectId("67378178ddf59492dc771008") },
+])
+
