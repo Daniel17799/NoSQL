@@ -1,0 +1,58 @@
+db.resultados.insertMany([
+  {
+    encuentro_id: ObjectId(),  
+    equipo1_id: ObjectId("67378178ddf59492dc771001"),  
+    equipo2_id: ObjectId("67378178ddf59492dc771002"),  
+    goles_equipo1: 0,  
+    goles_equipo2: 0,  
+    tarjetas_amarillas_equipo1: 0,  
+    tarjetas_rojas_equipo1: 0,  
+    tarjetas_amarillas_equipo2: 0,  
+    tarjetas_rojas_equipo2: 0, 
+    fecha: ISODate("2024-11-20T18:00:00Z"),  
+    resultado: "Pendiente", 
+    estado: "Pendiente" 
+  },
+  {
+    encuentro_id: ObjectId(), 
+    equipo1_id: ObjectId("67378178ddf59492dc771003"),  
+    equipo2_id: ObjectId("67378178ddf59492dc771004"),  
+    goles_equipo1: 0,  
+    goles_equipo2: 0,  
+    tarjetas_amarillas_equipo1: 0,  
+    tarjetas_rojas_equipo1: 0,  
+    tarjetas_amarillas_equipo2: 0,  
+    tarjetas_rojas_equipo2: 0, 
+    fecha: ISODate("2024-11-20T18:00:00Z"),  
+    resultado: "Pendiente", 
+    estado: "Pendiente" 
+  },
+  {
+    encuentro_id: ObjectId(),  
+    equipo1_id: ObjectId("67378178ddf59492dc771005"),  
+    equipo2_id: ObjectId("67378178ddf59492dc771006"),  
+    goles_equipo1: 0,  
+    goles_equipo2: 0,  
+    tarjetas_amarillas_equipo1: 0,  
+    tarjetas_rojas_equipo1: 0,  
+    tarjetas_amarillas_equipo2: 0,  
+    tarjetas_rojas_equipo2: 0, 
+    fecha: ISODate("2024-11-20T18:00:00Z"),  
+    resultado: "Pendiente", 
+    estado: "Pendiente" 
+  },
+  {
+    encuentro_id: ObjectId(),  
+    equipo1_id: ObjectId("67378178ddf59492dc771007"),  
+    equipo2_id: ObjectId("67378178ddf59492dc771008"),  
+    goles_equipo1: 0,  
+    goles_equipo2: 0,  
+    tarjetas_amarillas_equipo1: 0,  
+    tarjetas_rojas_equipo1: 0,  
+    tarjetas_amarillas_equipo2: 0,  
+    tarjetas_rojas_equipo2: 0, 
+    fecha: ISODate("2024-11-20T18:00:00Z"),  
+    resultado: "Pendiente", 
+    estado: "Pendiente" 
+  }
+]);
