@@ -1,0 +1,10 @@
+db.entrenadores.insertMany([
+{ nombre: "Alejandro Manso", equipoId: ObjectId("67378178ddf59492dc771001"), edad: 28},
+{ nombre: "Duver Grajales", equipoId: ObjectId("67378178ddf59492dc771002"), edad: 27},
+{ nombre: "Johan Real", equipoId: ObjectId("67378178ddf59492dc771003"), edad: 24},
+{ nombre: " Juan Arias", equipoId: ObjectId("67378178ddf59492dc771004"), edad: 29},
+{ nombre: "Daniel Sierra", equipoId: ObjectId("67378178ddf59492dc771005"), edad: 24},
+{ nombre: "Stiven Paramo", equipoId: ObjectId("67378178ddf59492dc771006"), edad: 28},
+{ nombre: "Esteban Suarez", equipoId: ObjectId("67378178ddf59492dc771007"), edad: 30},
+{ nombre: "Felipe Bueno", equipoId: ObjectId("67378178ddf59492dc771008"), edad: 24}
+]);
