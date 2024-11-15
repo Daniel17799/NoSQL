@@ -1,0 +1,42 @@
+db.encuentros.insertMany([
+  {
+    equipo1: ObjectId("67378178ddf59492dc771001"), 
+    equipo2: ObjectId("67378178ddf59492dc771002"), 
+    nombre_equipo1: "Tigres del Norte",  
+    nombre_equipo2: "Águilas Doradas",  
+    fecha: ISODate("2024-11-20T18:00:00Z"),  
+    lugar: "Coliseo municipal", 
+    ronda: "Cuartos de final",  
+    estado: "Pendiente"  
+  },
+  {
+    equipo1: ObjectId("67378178ddf59492dc771003"),  
+    equipo2: ObjectId("67378178ddf59492dc771004"),  
+    nombre_equipo1: "Jaguares",  
+    nombre_equipo2: "Chimichangas",  
+    fecha: ISODate("2024-11-20T18:00:00Z"),  
+    lugar: "Coliseo municipal", 
+    ronda: "Cuartos de final",  
+    estado: "Pendiente"  
+  },
+   {
+    equipo1: ObjectId("67378178ddf59492dc771005"),  
+    equipo2: ObjectId("67378178ddf59492dc771006"),  
+    nombre_equipo1: "Azulas",  
+    nombre_equipo2: "Pokemons",  
+    fecha: ISODate("2024-11-20T18:00:00Z"),  
+    lugar: "Coliseo municipal", 
+    ronda: "Cuartos de final",  
+    estado: "Pendiente"  
+  },
+    {
+    equipo1: ObjectId("67378178ddf59492dc771007"),  
+    equipo2: ObjectId("67378178ddf59492dc771008"),  
+    nombre_equipo1: "Power rangers",  
+    nombre_equipo2: "Los chita",  
+    fecha: ISODate("2024-11-20T18:00:00Z"),  
+    lugar: "Coliseo municipal", 
+    ronda: "Cuartos de final",  
+    estado: "Pendiente"  
+  },
+]);
