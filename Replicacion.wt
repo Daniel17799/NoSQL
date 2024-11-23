@@ -1,0 +1,38 @@
+-- Configuración de repliacion --
+mongod --replSet "rsTorneo" --port 27017 --dbpath /data/db1 --bind_ip localhost
+mongod --replSet "rsTorneo" --port 27018 --dbpath /data/db2 --bind_ip localhost
+mongod --replSet "rsTorneo" --port 27019 --dbpath /data/db3 --bind_ip localhost
+
+
+--Iniciamos el replica set--
+--Conectamos el nodo que funcionara como Primary--
+mongo --port 27017
+
+--Configuramos el Replica Set--
+rs.initiate({
+  _id: "rsTorneo",
+  members: [
+    { _id: 0, host: "localhost:27017" },
+    { _id: 1, host: "localhost:27018" },
+    { _id: 2, host: "localhost:27019" }
+  ]
+});
+
+--Para verificar el estado del replica set--
+rs.status()
+
+--Consultas para validación--
+--Verificar Roles de los nodos--
+
+rs.isMaster()
+
+
+--Podemos probar consultas y verificar su propagación
+use db_torneo;
+db.equipos.insertOne({ nombre: "Prueba Equipo", barrio: "Test", entrenador: "Test Entrenador", jugadores: 7 });
+
+
+--Podemos hacer consultas desde un nodo secundario
+
+db.getMongo().setReadPref('secondary');
+db.equipos.find();
