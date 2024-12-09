@@ -1,0 +1,28 @@
+//Iniciar los nodos de configuración y shards: 
+mongod --configsvr --replSet configReplSet --port 27019 --dbpath /data/config --bind_ip localhost
+mongod --shardsvr --replSet shard1 --port 27021 --dbpath /data/shard1 --bind_ip localhost
+mongod --shardsvr --replSet shard2 --port 27022 --dbpath /data/shard2 --bind_ip localhost
+
+//Iniciar el router (mongos):
+mongos --configdb configReplSet/localhost:27019 --bind_ip localhost --port 27017
+
+
+//Configurar los replica set
+//En el nodo de configuracion
+rs.initiate({_id: "configReplSet", configsvr: true, members: [{_id: 0, host: "localhost:27019"}]});
+
+
+//En los shard
+rs.initiate({_id: "shard1", members: [{_id: 0, host: "localhost:27021"}]});
+rs.initiate({_id: "shard2", members: [{_id: 0, host: "localhost:27022"}]});
+
+//Agregar shards al clúster
+sh.addShard("shard1/localhost:27021");
+sh.addShard("shard2/localhost:27022");
+
+//Habilitar el particionamiento para una base de datos y colección:
+sh.enableSharding("ecommerce");
+sh.shardCollection("ecommerce.orders", {orderId: 1});
+
+//Podemos comprobar el estado del cluster
+sh.status();
